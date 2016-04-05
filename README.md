@@ -204,7 +204,7 @@ __index.html__
 
 ....
 
-<ul ng-repeat="friend in friends | filter: friendFilter | orderBy: sortProp : sortDirection">
+<ul ng-repeat="friend in friends | filter: friendFilter | orderBy: -sortProp : sortDirection">
 ```
 
 
